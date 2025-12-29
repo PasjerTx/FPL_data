@@ -604,6 +604,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 107265,675,Angus,Gunn,Gunn,17,Goalkeeper
 503301,693,Omari,Hutchinson,Hutchinson,17,Midfielder
 465680,696,Arnaud,Kalimuendo,Kalimuendo,17,Forward
+214048,605,Maximilian,Kilman,Kilman,21,Defender
 138001,630,Tom,King,King,11,Goalkeeper
 230046,699,Douglas Luiz,Soares de Paulo,Douglas Luiz,17,Midfielder
 221389,715,John Victor,Maciel Furtado,John,17,Goalkeeper
@@ -703,7 +704,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 82143,601,Wes,Foderingham,Foderingham,21,Goalkeeper
 483364,602,Krisztián,Hegyi,Hegyi,21,Goalkeeper
 613804,603,El Hadji Malick,Diouf,Diouf,21,Defender
-214048,605,Maximilian,Kilman,Kilman,21,Defender
 109533,604,Emerson,Palmieri dos Santos,Emerson,21,Defender
 233963,606,Konstantinos,Mavropanos,Mavropanos,21,Defender
 210494,607,Nayef,Aguerd,N.Aguerd,21,Defender
