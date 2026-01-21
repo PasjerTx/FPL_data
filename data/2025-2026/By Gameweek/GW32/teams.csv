@@ -2,9 +2,9 @@ code,id,name,short_name,strength,strength_overall_home,strength_overall_away,str
 3,1,Arsenal,ARS,5,1300,1375,1340,1400,1260,1350,1,2047,Arsenal
 7,2,Aston Villa,AVL,3,1145,1185,1150,1170,1140,1200,2,1911,Aston Villa
 90,3,Burnley,BUR,3,1055,1095,1010,1090,1100,1100,43,1695,Burnley
-91,4,Bournemouth,BOU,3,1150,1220,1100,1240,1200,1200,127,1799,AFC Bournemouth
+91,4,Bournemouth,BOU,3,1150,1220,1100,1240,1200,1200,127,1802,AFC Bournemouth
 94,5,Brentford,BRE,3,1135,1175,1100,1110,1170,1240,130,1834,Brentford
-36,6,Brighton,BHA,3,1150,1160,1090,1110,1210,1210,131,1839,Brighton & Hove Albion
+36,6,Brighton,BHA,3,1150,1160,1090,1110,1210,1210,131,1836,Brighton & Hove Albion
 21,19,West Ham,WHU,3,1075,1075,1050,1050,1100,1100,25,1712,West Ham United
 39,20,Wolves,WOL,3,1070,1085,1050,1050,1090,1120,38,1671,Wolverhampton Wanderers
 8,7,Chelsea,CHE,3,1180,1190,1140,1160,1220,1220,4,1890,Chelsea
