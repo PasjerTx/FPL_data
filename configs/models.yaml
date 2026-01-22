@@ -1,0 +1,54 @@
+# RandomForest configuration for per-position models
+positions: [Goalkeeper, Defender, Midfielder, Forward]
+horizons: [1, 5, 10, 15]
+targets: [points, expected_goals, expected_assists, defensive_contribution]
+random_state: 42
+
+# Optional per-position targets (overrides "targets" for that position)
+position_targets:
+  Goalkeeper: [points, goals_conceded, saves]
+
+rf:
+  n_estimators: 300
+  max_depth: null
+  min_samples_leaf: 2
+  max_features: sqrt
+  n_jobs: -1
+
+# Optional explicit feature exclusions to prevent leakage or unwanted columns
+feature_exclude:
+  - player_code
+  - now_cost
+  - now_cost_rank
+  - selected_rank
+  - selected_by_percent
+  - transfers_in
+  - transfers_out
+  - transfers_in_event
+  - transfers_out_event
+  - cost_change_event
+  - cost_change_event_fall
+  - cost_change_start
+  - cost_change_start_fall
+  - chance_of_playing_next_round
+  - chance_of_playing_this_round
+  - ep_next
+  - ep_this
+  - total_points
+  - points_per_game
+  - points_per_game_rank
+  - points_per_game_rank_type
+  - form
+  - form_rank
+  - form_rank_type
+  - value_form
+  - value_season
+
+# Optional explicit feature whitelist (empty = use all numeric features minus exclusions)
+feature_include: []
+
+training:
+  min_gw: 1
+  use_finished_only: true
+  rolling_splits: true
+  final_holdout_gws: 3

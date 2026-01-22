@@ -169,3 +169,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Project outputs (regenerable by pipeline)
+data/processed/
+outputs/
+reports/
